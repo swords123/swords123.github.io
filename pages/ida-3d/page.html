@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>IDA-3D: Instance-Depth-Aware 3D Object Detection from Stereo Vision for Autonomous Driving</title>
+</head>
+<body id="body">
+    <div id="main">
+        <div id="header">
+            <div id="title"> IDA-3D: Instance-Depth-Aware 3D Object Detection from Stereo Vision for Autonomous Driving </div>
+            <div id="authors">
+                <ul class="list-inline">
+                    <li class="list-inline-item mx-4">
+                        <a href="https://swords123.github.io/">
+                            <p>Wanli Peng</p>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mx-4">
+                            <p>Hao Pan</p>
+                    </li>
+                    <li class="list-inline-item mx-4">
+                            <p>He Liu</p>
+                    </li>
+                    <li class="list-inline-item mx-4">
+                            <p>Yi Sun*</p>
+                    </li>
+                </ul>
+                <ul class="list-inline" style="margin-top: -1rem">
+                    <li class="list-inline-item mx-4">
+                        <p>Dalian University of Technology</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="resources">
+                <div class="col text-center text_resource">
+                    <ul class="list-inline">
+                        <li class="list-inline-item mx-4">
+                            <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Peng_IDA-3D_Instance-Depth-Aware_3D_Object_Detection_From_Stereo_Vision_for_Autonomous_CVPR_2020_paper.pdf">
+                            <img src="paper_icon.png">
+                                <p>Paper</p>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item mx-4">
+                            <a href="https://github.com/swords123/IDA-3D">
+                            <img src="github_icon.png">
+                                <p>Code</p>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item mx-4">
+                            <a href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Peng_IDA-3D_Instance-Depth-Aware_3D_CVPR_2020_supplemental.pdf">
+                            <img src="paper_icon.png">
+                                <p>Supp</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Abstract</h2>
+            <p>
+                3D object detection is an important scene understanding task in autonomous driving and virtual reality. Approaches
+                based on LiDAR technology have high performance, but LiDAR is expensive. Considering more general scenes, where
+                there is no LiDAR data in the 3D datasets, we propose a 3D object detection approach from stereo vision which does
+                not rely on LiDAR data either as input or as supervision in training, but solely takes RGB images with corresponding
+                annotated 3D bounding boxes as training data. As depth estimation of object is the key factor affecting the performance
+                of 3D object detection, we introduce an Instance-Depth-Aware (IDA) module which accurately predicts the depth
+                of the 3D bounding box’s center by instance-depth awareness, disparity adaptation and matching cost reweighting.
+                Moreover, our model is an end-to-end learning framework which does not require multiple stages or postprocessing al-
+                gorithm. We provide detailed experiments on KITTI benchmark and achieve impressive improvements compared with
+                the existing image-based methods.
+            </p>
+
+        </div>
+
+        <div class="section">
+            <h2>Overview</h2>
+            <div class="text-center">
+                <img src="architecture.png" width="95%">
+            </div>
+            <p>
+                Overview of the proposed IDA-3D. Top: Stereo RPN takes a pair of left and right images as input and outputs corresponding left-
+                right proposal pairs. After stereo RPN, we predict position, dimensions and orientation of 3D bounding box. Bottom: Instance-depth-aware
+                module builds a 4D cost volume and performs 3DCNN to estimate the depth of a 3D bounding box center.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Results</h2>
+            <div class="text-center">
+                <img src="results.png" width="93%">
+            </div>
+            <p>
+                Quantitative results on several scenes in KITTI dataset. At the first row are the ground truth 3D boxes and the predicted 3D boxes
+                projected to the image plane. We also show the detection results on point cloud in order to facilitate observation. The predicted results are
+                shown in yellow and the ground truth are shown in blue.
+            </p>
+        </div>
+
+
+        <div class="section">
+            <h2>BibTeX</h2>
+            <pre><code>@InProceedings{Peng_2020_CVPR,
+    author = {Peng, Wanli and Pan, Hao and Liu, He and Sun, Yi},
+    title = {IDA-3D: Instance-Depth-Aware 3D Object Detection From Stereo Vision for Autonomous Driving},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2020}
+}  </code></pre>
+        </div>
+
+        <div class="footer">
+            The Paper Authors © 2022
+        </div>
+
+
+
+
+
+    </div>
+</body>
+</html>
