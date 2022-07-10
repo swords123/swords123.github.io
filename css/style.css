@@ -167,6 +167,12 @@ a:hover {
     margin-right: 20px;
 }
 
+.slider iframe {
+    height: 205px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
 .demonstration::-webkit-scrollbar {
     background: none;
     height: 8px;
