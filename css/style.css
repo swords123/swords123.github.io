@@ -72,13 +72,13 @@ a:hover {
 }
 
 #profile-pic img {
-    width: 220px;
+    width: 170px;
     border-radius: 10px;
     margin-bottom: 18px;
 }
 
 #profile-intro {
-    width: 1000px;
+    width: 970px;
 }
 
 #name{
@@ -156,6 +156,12 @@ a:hover {
 }
 
 .slider img {
+    height: 205px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.slider object {
     height: 205px;
     border-radius: 10px;
     margin-right: 20px;
