@@ -102,14 +102,14 @@ a:hover {
 }
 
 /*****************************************/
-.publication-proj{
+.proj{
     margin-left: 30px;
     margin-bottom: 10px;
     width: 100%;
     display: table;
 }
 
-.publication-proj-thumb {
+.proj-thumb {
     width: 200px;
     height: 170px;
     float: left;
@@ -118,26 +118,33 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.publication-proj-thumb img{
+.proj-thumb img{
     width: 100%;
     border-radius: 5px;
 }
 
-.publication-proj-intro {
+.proj-intro {
     width: 950px;
 }
 
-.publication-proj-title {
+.proj-title {
     font-size: 18px;
     font-weight: bold;
     line-height: 26px;
 }
 
-.publication-proj-intro p {
+.proj-intro p {
     font-size: 14px;
     line-height: 22px;
     margin: 8px;
 }
+
+.proj-intro ul {
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 220px;
+}
+
 /*************************************************/
 .demonstration {
     height: 200px;
