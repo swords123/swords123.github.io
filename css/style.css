@@ -144,12 +144,16 @@ a:hover {
 .proj-intro p {
     font-size: 14px;
     line-height: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .proj-intro ul {
     font-size: 14px;
     line-height: 22px;
     margin-left: -20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /*************************************************/
