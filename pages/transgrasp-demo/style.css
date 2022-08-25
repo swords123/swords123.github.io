@@ -1,0 +1,110 @@
+@import url("https://p.typekit.net/p.css?s=1&k=quv7bsd&ht=tk&f=15498.15508.15510&a=18911035&app=typekit&e=css");
+
+@font-face {
+font-family:"roboto";
+src:url("https://use.typekit.net/af/5e9c68/00000000000000003b9ad05f/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/5e9c68/00000000000000003b9ad05f/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/5e9c68/00000000000000003b9ad05f/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"roboto";
+src:url("https://use.typekit.net/af/5be6ad/00000000000000003b9ad05d/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/5be6ad/00000000000000003b9ad05d/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/5be6ad/00000000000000003b9ad05d/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"roboto";
+src:url("https://use.typekit.net/af/acc12d/00000000000000003b9ad05b/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/acc12d/00000000000000003b9ad05b/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/acc12d/00000000000000003b9ad05b/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+.tk-roboto { font-family: "roboto",sans-serif; }
+
+#body{
+    font-family: roboto, sans-serif;
+    color: rgb(90, 90, 94);
+}
+
+#main {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #3d6797;
+}
+
+a:hover {
+    border-bottom: 1px solid #3d6797;
+}
+
+/************************************************/
+#header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#title {
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#authors {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#resources {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#resources img{
+    width: 50px;
+}
+
+#resources a:hover{
+    border-bottom: none
+}
+
+/************************************************/
+.section {
+    padding-bottom: 10px;
+}
+
+.section h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.section p{
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.section iframe{
+    width: 800px;
+    height: 600px;
+}
+
+pre code {
+    text-align: left;
+    word-wrap: normal;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+
+/*********************************************/
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+}
