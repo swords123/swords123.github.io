@@ -1,188 +1,56 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Wanli Peng">
-    <link rel="shortcut icon" href="images/ico.jpg" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic homepage of Wanli Peng.">
+    <meta name="keywords" content="Wanli Peng, robotics, artificial intelligence, robotic manipulation, 3D computer vision">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="images/ico.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="css/style.css">
     <title>Wanli Peng</title>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
-<body id="body">
-    <div id="main">
-        <header id="header">
-            <a href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/swords123">Github</a>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <nav aria-label="Primary navigation">
+                <a href="#top">Home</a>
+                <a href="#publications">Publications</a>
+                <a href="https://github.com/swords123" target="_blank" rel="noreferrer">GitHub</a>
+            </nav>
         </header>
 
-        <div id="profile">
-            <div id="profile-pic">
-                <img src="images/Wanli-Peng2.jpg" />
-            </div>
-
-            <div id="profile-intro"> 
-                <div id="name">Wanli Peng</div>
-
-                <p>I received the PhD degree in signal and information processing from the 
-                    <a href="https://www.dlut.edu.cn/"> Dalian University of Technology (DLUT) </a>, Dalian, China in 2024. 
-                 </p>
-        
-                <p>My research interests include 3D computer vision, Robotic manipulation and Robotic system engineering. </p>
-        
-                <p> <b>WeChat</b>: qq1136558142
-                <div style="clear: both;"></div>
-            </div>
-        </div>
-
-        <!-- <div class="section">
-            <div class="demonstration">
-                <div class="slider">
-
-                    <iframe src="https://player.bilibili.com/player.html?aid=809360417&;bvid=BV1A34y1k74Q&cid=516321808&page=1&danmaku=0"  scrolling="no" border="0" frameborder="no" framespacing="0"> </iframe>
-
-                    <iframe src="https://player.bilibili.com/player.html?aid=636823972&bvid=BV1wb4y1x7R2&cid=516322588&page=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0"> </iframe>
-
-                    <iframe src="https://player.bilibili.com/player.html?aid=979297739&bvid=BV1Y44y1n7g1&cid=516319371&page=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0"> </iframe>
+        <main id="top">
+            <section class="profile" aria-labelledby="name">
+                <div class="profile-photo">
+                    <img src="images/Wanli-Peng2.jpg" alt="Portrait of Wanli Peng" width="355" height="538">
                 </div>
-            </div>
-        </div> -->
-
-        <div class="section" id="publication">
-            <h2>Publications</h2>
-
-            <div class="proj">
-                <div class="proj-thumb"><img src="images/gr_rl_teaser.jpg" alt=""></div>
-                <div class="proj-intro">
-                    <div class="proj-title">GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</div>
-                    <p>
-                         A robotic learning framework that turns a generalist vision-language-action (VLA) policy into a highly capable specialist for long-horizon dexterous manipulation..
-                    </p>    
-                    <p>
-                    <b>Author List</b>:Yunfei Li, Xiao Ma, Jiafeng Xu, Yu Cui, Zhongren Cui, Zhigang Han, Liqun Huang, Tao Kong, Yuxiao Liu, Hao Niu, <b> Wanli Peng  </b>, Jingchao Qiao, Zeyu Ren, Haixin Shi, Zhi Su, Jiawen Tian, Yuyang Xiao, Shenyu Zhang, Liwei Zheng, Hang Li, Yonghui Wu<br>
-                    <b>Bytedance Seed Robotics</b><br>
-                       <a href="https://seed.bytedance.com/zh/gr_rl">Webpage</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-                       <a href=https://arxiv.org/pdf/2512.01801">Paper</a>&nbsp;&nbsp;&nbsp;&nbsp;           
-                    </p>
+                <div class="profile-intro">
+                    <h1 id="name">Wanli Peng</h1>
+                    <p>I received my Ph.D. in Signal and Information Processing from <a href="https://www.dlut.edu.cn/" target="_blank" rel="noreferrer">Dalian University of Technology (DLUT)</a>, Dalian, China, in 2024, with my doctoral research primarily focused on 3D computer vision for robotics.</p>
+                    <p>I currently work on systems engineering for embodied foundation models, bridging large-scale model development with reliable deployment on real-world robotic systems.</p>
+                    <div class="contact-list">
+                        <p class="contact-line"><strong>WeChat</strong><span>pengwanli2820</span></p>
+                        <p class="contact-line"><strong>Gmail</strong><a href="mailto:pengwanli123@gmail.com">pengwanli123@gmail.com</a></p>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="proj">
-                <div class="proj-thumb"><img src="images/gr3_teaser.png" alt=""></div>
-                <div class="proj-intro">
-                    <div class="proj-title">GR-3 Technical Report</div>
-                    <p>
-                        A Generalizable and Robust Vision-Language-Action (VLA) Model for Long-Horizon and Dexterous Tasks.
-                    </p>    
-                    <p>
-                    <b>Author List</b>: Chilam Cheang, Sijin Chen, Zhongren Cui, Yingdong Hu, Liqun Huang, Tao Kong, Hang Li, Yifeng Li, Yuxiao Liu, Xiao Ma, Hao Niu, Wenxuan Ou, <b> Wanli Peng </b>, Zeyu Ren, Haixin Shi, Jiawen Tian, Hongtao Wu, Xin Xiao, Yuyang Xiao, Jiafeng Xu, Yichu Yang<br>
-                    <b>Bytedance Seed Robotics</b><br>
-                       <a href="https://seed.bytedance.com/en/GR3/">Webpage</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-                       <a href=https://arxiv.org/pdf/2507.15493">Paper</a>&nbsp;&nbsp;&nbsp;&nbsp;           
-                    </p>
+            </section>
+
+            <section class="publications" id="publications" aria-labelledby="publications-title">
+                <div class="section-heading">
+                    <h2 id="publications-title">Publications</h2>
                 </div>
-            </div>
+                <div class="publication-list" id="publication-list"></div>
+            </section>
+        </main>
 
-            <div class="proj">
-                <div class="proj-thumb"><img src="images/functional_grasp_transfer_teaser.png" alt=""></div>
-                <div class="proj-intro">
-                    <div class="proj-title">Functional Grasp Transfer Across a Category of Objects From Only one Labeled Instance</div>
-                    <p>
-                        We propose a category-level multi-fingered functional grasp transfer framework. 
-                    </p>    
-                    <p>
-                       Rina Wu, Tianqiang Zhu, <b> Wanli Peng </b> , Jinglue Hang, Yi Sun* <br>
-                       RAL, 2023 <br>
-                       <a href="https://ieeexplore.ieee.org/document/10079105">Paper</a>&nbsp;&nbsp;•&nbsp;&nbsp;           
-                    </p>
-                </div>
-            </div>
+        <footer>
+            <span>© <span id="year"></span> Wanli Peng</span>
+            <a href="#top">Back to top</a>
+        </footer>
+    </div>
 
-            <div class="proj">
-                <div class="proj-thumb"><img src="images/FunctionalGrasp_teaser.png" alt=""></div>
-                <div class="proj-intro">
-                    <div class="proj-title">FunctionalGrasp: Learning Functional Grasp for Robots via Semantic Hand-Object Representation</div>
-                    <p>
-                        A semantic representation of functional hand-object interaction is introduced without labeling 3D hand poses, and a novel coarse-to-fine grasp generation network is designed to model this hand-object interaction. 
-                    </p>    
-                    <p>
-                       Yibiao Zhang,Jinglue Hang, Tianqiang Zhu, Xiangbo Lin*, Rina Wu, <b> Wanli Peng </b>, Dongying Tian, Yi Sun <br>
-                       RAL, 2023 <br>
-                       <a href="https://ieeexplore.ieee.org/document/10093013">Paper</a>&nbsp;&nbsp;•&nbsp;&nbsp;           
-                       <a href="https://github.com/hjlllll/Functionalgrasp">Code</a> 
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="proj">
-                <div class="proj-thumb"><img src="images/transgrasp-teaser.jpg" alt=""></div>
-                <div class="proj-intro">
-                    <div class="proj-title">TransGrasp: Grasp Pose Estimation of a Category of Objects by Transferring Grasps from Only One Labeled Instance</div>
-                    <p>
-                        We propose TransGrasp, a category-level grasp pose 
-                        estimation method that predicts grasp poses of a 
-                        category of objects by labeling only one object instance.
-                    </p>    
-                    <p>
-                       Hongtao Wen, Jianhang Yan, <b> Wanli Peng*</b>, Yi Sun <br>
-                       ECCV, 2022 <br>
-                       <a href="https://sites.google.com/view/transgrasp">Webpage</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-                       <a href="https://arxiv.org/pdf/2207.07861.pdf">Paper</a>&nbsp;&nbsp;•&nbsp;&nbsp;           
-                       <a href="https://github.com/yanjh97/TransGrasp">Code</a> 
-                    </p>
-                </div>
-            </div>
-
-            <div class="proj">
-                <div class="proj-thumb"><img src="images/SSC6D-teaser.jpg" alt=""></div>
-                <div class="proj-intro">
-                    <div class="proj-title">Self-Supervised Category-Level 6D Object Pose Estimation with Deep Implicit Shape Representation</div>
-                    <p>
-                        A self-supervised method for category-level 6D pose estimation, SSC-6D, 
-                        which can predict unseen object poses without explicit pose annotations and exact 
-                        3D models in real scenarios for training.
-                    </p>    
-                    <p>
-                       <b> Wanli Peng,</b> Jianhang Yan, Hongtao Wen, Yi Sun* <br>
-                       AAAI, 2022 <br>
-                       <a href="pages/ssc-6d/page.html">Webpage</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-                       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20104">Paper</a>&nbsp;&nbsp;•&nbsp;&nbsp;           
-                       <a href="https://github.com/swords123/SSC-6D">Code</a>   
-                    </p>
-                </div>
-            </div>
-            
-            <div class="proj">
-                <div class="proj-thumb"><img src="images/ida3d-1.jpg" alt=""></div>
-                <div class="proj-intro">
-                    <div class="proj-title">IDA-3D: Instance-Depth-Aware 3D Object Detection from Stereo Vision for
-                        Autonomous Driving</div>
-                    <p>
-                        An end-to-end learning framework for 3D object detection based on stereo images in
-                        autonomous driving.
-                    </p>    
-                    <p>
-                       <b> Wanli Peng,</b> Hao Pan, He Liu, Yi Sun* <br>
-                       CVPR, 2020 <br>
-                       <a href="pages/ida-3d/page.html">Webpage</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-                       <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Peng_IDA-3D_Instance-Depth-Aware_3D_Object_Detection_From_Stereo_Vision_for_Autonomous_CVPR_2020_paper.pdf">Paper</a>&nbsp;&nbsp;•&nbsp;&nbsp;           
-                       <a href="https://github.com/swords123/IDA-3D">Code</a>   
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
-            © Wanli Peng
-        </div>
-
-
+    <script src="js/content.js?v=6" defer></script>
+    <script src="js/main.js?v=6" defer></script>
 </body>
 </html>
-
-
-
-
